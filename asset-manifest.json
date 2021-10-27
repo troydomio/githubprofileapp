@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/githubprofileapp/static/css/main.d78841fa.chunk.css",
+    "main.js": "/githubprofileapp/static/js/main.7ee1eec1.chunk.js",
+    "main.js.map": "/githubprofileapp/static/js/main.7ee1eec1.chunk.js.map",
+    "runtime-main.js": "/githubprofileapp/static/js/runtime-main.add49ede.js",
+    "runtime-main.js.map": "/githubprofileapp/static/js/runtime-main.add49ede.js.map",
+    "static/js/2.d53f0d9c.chunk.js": "/githubprofileapp/static/js/2.d53f0d9c.chunk.js",
+    "static/js/2.d53f0d9c.chunk.js.map": "/githubprofileapp/static/js/2.d53f0d9c.chunk.js.map",
+    "static/js/3.6489da61.chunk.js": "/githubprofileapp/static/js/3.6489da61.chunk.js",
+    "static/js/3.6489da61.chunk.js.map": "/githubprofileapp/static/js/3.6489da61.chunk.js.map",
+    "index.html": "/githubprofileapp/index.html",
+    "static/css/main.d78841fa.chunk.css.map": "/githubprofileapp/static/css/main.d78841fa.chunk.css.map",
+    "static/js/2.d53f0d9c.chunk.js.LICENSE.txt": "/githubprofileapp/static/js/2.d53f0d9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.add49ede.js",
+    "static/js/2.d53f0d9c.chunk.js",
+    "static/css/main.d78841fa.chunk.css",
+    "static/js/main.7ee1eec1.chunk.js"
+  ]
+}
