@@ -110,3 +110,17 @@
   padding: 2%;
   box-shadow: 5px 5px 5px #b7b9b7;
 }
+
+@media all and (max-width: 500px){
+  .divtop{
+    display: block;
+  }
+  .div2{
+    display: block;
+    margin-left: 2%;
+    
+  }
+  .bodyprofile img{
+    width: 200px;
+    height: 200px;}
+}
