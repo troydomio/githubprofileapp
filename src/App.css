@@ -1,38 +1,112 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+ body{
+  background-color: #ebedee;
+ }
+
+/* Search CSS */
+.search-section img{
+  width: 90px;
+  height: 90px;
+}
+.search-section{
+  margin: auto;
+  /* border: black 1px solid; */
+  width: 70%;
+  height: 70%;
   text-align: center;
+  padding: 10%;
+ 
+}
+.search-section h1{
+  font-size: 50px;
+}
+.search-section input{
+  max-width: 400px;
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  background-color: #ebedee;
+}
+.search-section button{
+  margin: auto;
+  display: block;
+  max-width: 400px;
+  font-size: 30px;
+  background-color: #f5f6f6;
+  border-radius: 45%;
+  border:1px #d3d5d6 solid;
+  color: #bcbdbe;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* profile CSS */
+.div2{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* border: black 1px solid; */
+ margin-top: 1%;
+ margin-bottom: 5%;
+ max-width: 70%;
+ justify-content: center;
+ align-items: center;
+}
+.avatar{
+  border-radius: 50%;
+}
+.bodyprofile{
+  background-image: url('https://images.unsplash.com/photo-1601379329542-31c59347e2b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80');
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.bodyprofile img{
+  width: 300px;
+  height: 300px;
+  box-shadow: 5px 5px 5px #b7b9b7;
+}
+.reposdiv{
+  background-color: white;
+  padding: 5%;
+  margin-right: 2%;
+  box-shadow: 5px 5px 5px #b7b9b7;
+}
+.followersdiv{
+ 
+  background-color: white;
+  padding: 5%;
+  margin-right: 2%;
+  box-shadow: 5px 5px 5px #b7b9b7;
+}
+.followingdiv{
+  background-color: white;
+  padding: 5%;
+  margin-right: 2%;
+  box-shadow: 5px 5px 5px #b7b9b7;
 }
 
-.App-link {
-  color: #61dafb;
+/* CSS for avatar and username/bio/joined section */
+.divtop{
+  display: flex;
+  margin-left: 10%;
+  /* border: black 1px solid; */
+  max-width: 60%;
+  background-color: white;
+  box-shadow: 5px 5px 5px #b7b9b7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divinfo{
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+  box-shadow: 5px 5px 5px #b7b9b7;
+}
+.divavatar{
+  background-color: white;
+  padding: 2%;
+  box-shadow: 5px 5px 5px #b7b9b7;
 }
